@@ -1,6 +1,7 @@
 #include <stdio.h>
 
+//Basic hello world application
 int main(){
-    printf("Merhaba,\n");
-    printf("Dünya!\n");
+    printf("Hello,\n");
+    printf("World!\n");
 }
