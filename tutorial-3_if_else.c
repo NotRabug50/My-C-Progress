@@ -37,15 +37,19 @@ int main(){
     {
         case 60:
             puts("yup right answer");
+            sleep(3);
             break;
         case 69:
             puts("Not funny.");
+            sleep(3);
             break;
         case 31:
             puts("Not funny");
+            sleep(3);
             break;
         default:
             puts("pls give me an right answer");
+            sleep(3);
             break;
     }
 }

@@ -11,15 +11,15 @@ int main(){
 
     printf("Enter your fathers size (only numbers): "); //Writing console to ask question
     fflush(stdout); //idk what is this
-    scanf("%d\n", &your_fathers_size); //Waits and input and sets is input value to your fathers size
+    scanf("%d", &your_fathers_size); //Waits and input and sets is input value to your fathers size
 
     printf("Enter your mothers size (only numbers): "); //Writing console to ask question
     fflush(stdout); //idk what is this
-    scanf("%d\n", &your_moms_size); //Waits and input and sets is input value to your mothers size
+    scanf("%d", &your_moms_size); //Waits and input and sets is input value to your mothers size
 
     printf("Are you a boy? (13 for yes, -13 for no): "); //Writing console to ask question
     fflush(stdout); //idk what is this
-    scanf("%d\n", &are_you_a_boy); //Waits and input and sets is input value to are you a boy
+    scanf("%d", &are_you_a_boy); //Waits and input and sets is input value to are you a boy
 
     int total = your_fathers_size+your_moms_size+are_you_a_boy; //Getting total of your moms and dads size
     total = total/2; //Getting half of total
