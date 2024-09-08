@@ -1,6 +1,6 @@
 
 # My C Progress!
-## Heres what i learned:
+## Heres what I learned:
 
  - **Hello World!**
  - **Inputs**
